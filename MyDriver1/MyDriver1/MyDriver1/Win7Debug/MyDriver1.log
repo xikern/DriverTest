@@ -1,0 +1,37 @@
+﻿生成启动时间为 9/13/2018 8:13:38 PM。
+     1>项目“F:\VS2012\MyDriver1\MyDriver1\MyDriver1.vcxproj”在节点 2 上(Build 个目标)。
+     1>StampInf:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\stampinf.exe -d "*" -a "x86" -v "*" -k "1.11" -u "1.11.0" -f Win7Debug\MyDriver1.inf 
+         Stamping Win7Debug\MyDriver1.inf [Version] section with DriverVer=09/13/2018,20.13.38.126
+       ClCompile:
+         E:\IDE\VS2012\VC\bin\CL.exe /c /IWin7Debug\ /Zi /nologo /W4 /WX- /Od /Oi /Oy- /D _X86_=1 /D i386=1 /D STD_CALL /D DEPRECATE_DDK_FUNCTIONS=1 /D MSC_NOOPT /D WIN32_LEAN_AND_MEAN=1 /D _WIN32_WINNT=0x0601 /D WINVER=0x0601 /D WINNT=1 /D NTDDI_VERSION=0x06010000 /D DBG=1 /GF /Gm- /Zp8 /GS /Gy /fp:precise /hotpatch /Zc:wchar_t- /Zc:forScope- /GR- /Fo"Win7Debug\\" /Fd"Win7Debug\vc110.pdb" /Gz /wd4748 /wd4603 /wd4627 /wd4986 /wd4987 /wd4996 /FI"C:\Program Files (x86)\Windows Kits\8.0\Include\Shared\warning.h" /analyze- /errorReport:prompt /kernel -cbstring /d1import_no_registry /d2AllowCompatibleILVersions /d2Zi+ Implemention.c "源.c"
+         Implemention.c
+     1>Implemention.c(7): warning C4189: “nIndex”: 局部变量已初始化但不引用
+     1>Implemention.c(44): warning C4100: “pIrp”: 未引用的形参
+     1>Implemention.c(44): warning C4100: “pDeviceObject”: 未引用的形参
+     1>Implemention.c(128): warning C4100: “pIrp”: 未引用的形参
+     1>Implemention.c(128): warning C4100: “pDeviceObject”: 未引用的形参
+     1>Implemention.c(301): warning C4047: “=”:“NTSTATUS”与“void *”的间接级别不同
+     1>Implemention.c(317): warning C4047: “=”:“NTSTATUS”与“void *”的间接级别不同
+         源.c
+     1>源.c(3): warning C4100: “pIrp”: 未引用的形参
+     1>源.c(3): warning C4100: “pDeviceObject”: 未引用的形参
+     1>源.c(6): warning C4189: “status”: 局部变量已初始化但不引用
+     1>源.c(9): warning C4100: “pDriverObject”: 未引用的形参
+     1>源.c(14): warning C4100: “pRegPath”: 未引用的形参
+         正在生成代码...
+     1>f:\vs2012\mydriver1\mydriver1\源.c(7): warning C4716: “Dispatch”: 必须返回一个值
+       Link:
+         E:\IDE\VS2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\VS2012\MyDriver1\Win7Debug\MyDriver1.sys" /VERSION:"6.2" /INCREMENTAL:NO /NOLOGO /WX /FUNCTIONPADMIN:5 /SECTION:"INIT,d" "C:\Program Files (x86)\Windows Kits\8.0\lib\win7\KM\x86\memcmp.lib" "C:\Program Files (x86)\Windows Kits\8.0\lib\win7\KM\x86\BufferOverflowK.lib" "C:\Program Files (x86)\Windows Kits\8.0\lib\win7\KM\x86\ntoskrnl.lib" "C:\Program Files (x86)\Windows Kits\8.0\lib\win7\KM\x86\hal.lib" "C:\Program Files (x86)\Windows Kits\8.0\lib\win7\KM\x86\wmilib.lib" /NODEFAULTLIB /MANIFEST:NO /DEBUG /PDB:"F:\VS2012\MyDriver1\Win7Debug\MyDriver1.pdb" /SUBSYSTEM:NATIVE,"6.01" /Driver /OPT:REF /OPT:ICF /ENTRY:"GsDriverEntry@8" /RELEASE /IMPLIB:"F:\VS2012\MyDriver1\Win7Debug\MyDriver1.lib" /MERGE:"_TEXT=.text;_PAGE=PAGE" /MACHINE:X86 /SAFESEH /kernel /IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 /osversion:6.2 /pdbcompress /debugtype:pdata Win7Debug\Implemention.obj
+         "Win7Debug\源.obj"
+         MyDriver1.vcxproj -> F:\VS2012\MyDriver1\Win7Debug\MyDriver1.sys
+       DriverTestSign:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\signtool.exe sign /ph /sha1 "7DA2BFF891460847A28ADA2EEAB81F4DF4E0590E" 
+         Done Adding Additional Store
+         Successfully signed: F:\VS2012\MyDriver1\Win7Debug\MyDriver1.sys
+         
+     1>已完成生成项目“F:\VS2012\MyDriver1\MyDriver1\MyDriver1.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.97

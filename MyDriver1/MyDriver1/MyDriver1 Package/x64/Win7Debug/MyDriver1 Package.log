@@ -1,0 +1,8 @@
+﻿生成启动时间为 8/30/2018 3:35:36 PM。
+     1>项目“F:\VS2012\MyDriver1\MyDriver1 Package\MyDriver1 Package.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\Windows Kits\8.0\build\WindowsDriver8.0.common.targets(1347,5): error MSB3030: 无法复制文件“F:\VS2012\MyDriver1\x64\Win7Debug\MyDriver1.sys”，原因是找不到该文件。
+     1>已完成生成项目“F:\VS2012\MyDriver1\MyDriver1 Package\MyDriver1 Package.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.06
